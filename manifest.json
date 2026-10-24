@@ -1,37 +1,56 @@
 {
-  "background_color": "#ffffff",
-  "dir": "ltr",
-  "display": "fullscreen",
   "name": "Radar de Comidas",
-  "orientation": "any",
-  "scope": "/",
-  "short_name": "Radar de Comidas",
+  "short_name": "RadarComidas",
+  "description": "Mini-app que convierte tus ingredientes, tiempo y gustos en tres comidas posibles en 3 minutos.",
   "start_url": "/",
-  "theme_color": "#ffffff",
-  "id": "radar1.0",
-  "description": "Mini-app que convierte tus ingredientes, tiempo y gustos en tres comidas posibles en 3 minutos.\n\nLo que puedes resolver:\n- Empieza con lo que tienes, el tiempo disponible y lo que sí te gusta comer.\n- En 3 minutos ves tres opciones sencillas, no otro menú cerrado que cuesta seguir.\n- El punto ciego: una receta perfecta en papel no sirve si no cabe en tu día.\n- Elige una comida posible hoy, sin contar calorías ni reiniciar toda tu rutina.\n- Guarda una opción y conviértela en una lista de compra breve.",
-  "lang": "es",
+  "scope": "/",
+  "display": "standalone",
+  "orientation": "portrait",
+  "theme_color": "#174c38",
+  "background_color": "#f5f7f2",
+  "id": "/", 
   "icons": [
     {
-      "src": "icon-192.png",
-      "sizes": "192x192",
+      "src": "/icons/icon-72x72.png",
+      "sizes": "72x72",
       "type": "image/png"
     },
     {
-      "src": "icon-512.png",
-      "sizes": "512x512",
+      "src": "/icons/icon-96x96.png",
+      "sizes": "96x96",
       "type": "image/png"
+    },
+    {
+      "src": "/icons/icon-128x128.png",
+      "sizes": "128x128",
+      "type": "image/png"
+    },
+    {
+      "src": "/icons/icon-144x144.png",
+      "sizes": "144x144",
+      "type": "image/png"
+    },
+    {
+      "src": "/icons/icon-152x152.png",
+      "sizes": "152x152",
+      "type": "image/png"
+    },
+    {
+      "src": "/icons/icon-192x192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "/icons/icon-384x384.png",
+      "sizes": "384x384",
+      "type": "image/png"
+    },
+    {
+      "src": "/icons/icon-512x512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any maskable"
     }
-  ]
-  "display_override": [
-    "window-controls-overlay",
-    "browser",
-    "fullscreen",
-    "minimal-ui",
-    "standalone"
-  ],
-  "categories": [
-    "food",
-    "health &amp; fitness"
   ]
 }
