@@ -6,7 +6,7 @@
   "orientation": "any",
   "scope": "/",
   "short_name": "Radar de Comidas",
-  "start_url": "https://radar-de-comidas.netlify.app/",
+  "start_url": "/",
   "theme_color": "#ffffff",
   "id": "radar1.0",
   "description": "Mini-app que convierte tus ingredientes, tiempo y gustos en tres comidas posibles en 3 minutos.\n\nLo que puedes resolver:\n- Empieza con lo que tienes, el tiempo disponible y lo que sí te gusta comer.\n- En 3 minutos ves tres opciones sencillas, no otro menú cerrado que cuesta seguir.\n- El punto ciego: una receta perfecta en papel no sirve si no cabe en tu día.\n- Elige una comida posible hoy, sin contar calorías ni reiniciar toda tu rutina.\n- Guarda una opción y conviértela en una lista de compra breve.",
